@@ -7,7 +7,7 @@
 *Prevent formatting issues when AI writes Feishu/Lark documents via CLI*
 
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-7C3AED?style=flat-square&logo=anthropic)](https://docs.anthropic.com/en/docs/claude-code)
-[![Lark CLI](https://img.shields.io/badge/Lark%20CLI-Compatible-3370FF?style=flat-square&logo=lark)](https://github.com/larksuite/cli)
+[![Lark CLI](https://img.shields.io/badge/Lark%20CLI-Compatible-3370FF?style=flat-square)](https://github.com/larksuite/cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 [中文](#中文) · [English](#english)
@@ -81,7 +81,7 @@ Q：支持哪些 IDE？A：Claude Code、Cursor 等。
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | AI 编程助手 | 参见 Anthropic 文档 |
 | [Lark CLI](https://github.com/larksuite/cli) | 飞书文档操作 | `npm install -g @larksuite/cli` |
 
-> 本 skill 基于飞书扩展 Markdown 语法（`lark-table`、`callout` 等），适用于所有使用该语法的飞书 CLI 工具。
+> 本 skill 基于飞书扩展 Markdown 语法（`lark-table`、`callout` 等），适用于所有使用该语法的飞书 CLI 工具。示例中的 `feishu` 命令可能因 CLI 实现不同而变化（如 `lark-cli`），具体请参考你所用 CLI 的文档。
 
 **一行命令安装 skill：**
 
@@ -233,7 +233,7 @@ A [Claude Code skill](https://docs.anthropic.com/en/docs/claude-code#skills) tha
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | AI coding assistant | See Anthropic docs |
 | [Lark CLI](https://github.com/larksuite/cli) | Feishu/Lark document operations | `npm install -g @larksuite/cli` |
 
-> This skill is based on Feishu extended Markdown syntax (`lark-table`, `callout`, etc.) and works with any Feishu CLI that uses this syntax.
+> This skill is based on Feishu extended Markdown syntax (`lark-table`, `callout`, etc.) and works with any Feishu CLI that uses this syntax. Command names in examples (e.g., `feishu`) may vary by CLI implementation (e.g., `lark-cli` for the official Lark CLI).
 
 **One-line install:**
 
